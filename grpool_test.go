@@ -42,7 +42,7 @@ func TestNewPool(t *testing.T) {
 
 	iterations := 1000000
 	pool.WaitCount(iterations)
-	var counter uint64 = 0
+	var counter uint64
 
 	for i := 0; i < iterations; i++ {
 		arg := uint64(1)
