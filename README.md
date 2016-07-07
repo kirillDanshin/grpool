@@ -1,5 +1,5 @@
 # grpool
-[![Build Status](https://travis-ci.org/ivpusic/grpool.svg?branch=master)](https://travis-ci.org/ivpusic/grpool)
+[![Build Status](https://travis-ci.org/kirillDanshin/grpool.svg?branch=master)](https://travis-ci.org/kirillDanshin/grpool)
 
 Lightweight Goroutine pool
 
