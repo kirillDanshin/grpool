@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/ivpusic/grpool"
+	"github.com/kirillDanshin/grpool"
 )
 
 func first() {

@@ -7,12 +7,14 @@ When worker is done with processing job, will be returned back to worker pool.
 
 Number of workers and Job queue size is configurable.
 
+Forked from [ivpusic/grpool](https://github.com/ivpusic/grpool)
+
 ## Docs
-https://godoc.org/github.com/ivpusic/grpool
+https://godoc.org/github.com/kirillDanshin/grpool
 
 ## Installation
 ```
-go get github.com/ivpusic/grpool
+go get github.com/kirillDanshin/grpool
 ```
 
 ## Simple example
@@ -24,7 +26,7 @@ import (
   "runtime"
   "time"
 
-  "github.com/ivpusic/grpool"
+  "github.com/kirillDanshin/grpool"
 )
 
 func main() {
@@ -56,7 +58,7 @@ import (
   "fmt"
   "runtime"
 
-  "github.com/ivpusic/grpool"
+  "github.com/kirillDanshin/grpool"
 )
 
 func main() {

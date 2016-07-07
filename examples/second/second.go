@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/ivpusic/grpool"
+	"github.com/kirillDanshin/grpool"
 )
 
 func second() {
