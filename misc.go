@@ -17,6 +17,7 @@ func (p *Pool) WaitCount(count int) {
 
 // WaitAll waits for all jobs to finish.
 func (p *Pool) WaitAll() {
+	defer recover()
 	p.wg.Wait()
 }
 
