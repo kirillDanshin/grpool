@@ -10,7 +10,7 @@ func (p *Pool) JobDone() {
 }
 
 // WaitCount is how many jobs we should wait when calling WaitAll.
-// It is using WaitGroup Add/Done/Wait
+// It is using WaitGroup.Add so it's will not replace the count.
 func (p *Pool) WaitCount(count int) {
 	p.wg.Add(count)
 }
